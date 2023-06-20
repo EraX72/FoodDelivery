@@ -4,7 +4,6 @@ using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using FoodDelivery1.Models;
 
 namespace Last.Controllers
 {
@@ -36,7 +35,7 @@ namespace Last.Controllers
                 return NotFound();
             }
 
-            return Ok(order)a
+            return Ok(order);
         }
 
         [HttpPost]
