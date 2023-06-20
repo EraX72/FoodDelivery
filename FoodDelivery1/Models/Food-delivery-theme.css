@@ -1,0 +1,84 @@
+﻿.swagger-ui .topbar {
+    background-color: #F44336;
+    color: #FFF;
+}
+
+/* Customize the background color of the main content area */
+.swagger-ui .swagger-ui .wrapper {
+    background-color: #FFF;
+}
+
+/* Customize the font color of the endpoints */
+.swagger-ui .endpoints .endpoints-container .endpoints-list .endpoints-list-item .endpoint-path {
+    color: #F44336;
+}
+
+/* Customize the background color and font color of the HTTP verbs */
+.swagger-ui .http-method {
+    background-color: #F44336;
+    color: #FFF;
+}
+
+/* Customize the background color and font color of the response codes */
+.swagger-ui .response-col_status .response-code {
+    background-color: #F44336;
+    color: #FFF;
+}
+
+/* Customize the background color and font color of the parameters */
+.swagger-ui .opblock .opblock-section .parameters-col_description {
+    background-color: #F44336;
+    color: #FFF;
+}
+
+/* Customize the font color of the description text */
+.swagger-ui .opblock-description-wrapper .opblock-description {
+    color: #555;
+}
+
+/* Customize the background color of the try-out section */
+.swagger-ui .try-out {
+    background-color: #FFF;
+}
+
+/* Customize the font color of the try-out button */
+.swagger-ui .try-out__btn {
+    color: #F44336;
+}
+
+/* Customize the background color and font color of the JSON editor */
+.swagger-ui .opblock .opblock-section .opblock-section-request-body .opblock-request-body__editor textarea,
+.swagger-ui .opblock .opblock-section .opblock-section-request-body .opblock-request-body__editor textarea:focus {
+    background-color: #FFF;
+    color: #555;
+    border: 1px solid #F44336;
+}
+
+/* Customize the background color and font color of the JSON editor's syntax highlighting */
+.swagger-ui .cm-s-default.CodeMirror {
+    background-color: #FFF;
+    color: #555;
+}
+
+
+.swagger-ui .opblock .responses-inner .response-col.response-col_body pre {
+    background-color: #FFF;
+    color: #555;
+    border: 1px solid #F44336;
+}
+
+
+.swagger-ui .opblock .responses-inner .response-col.response-col_headers {
+    background-color: #F44336;
+    color: #FFF;
+}
+
+   
+    .swagger-ui .opblock .responses-inner .response-col.response-col_headers .response-col_key {
+        color: #FFF;
+    }
+
+   
+    .swagger-ui .opblock .responses-inner .response-col.response-col_headers .response-col_value {
+        color: #EEE;
+    }
